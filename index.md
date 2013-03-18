@@ -63,6 +63,9 @@ title: Frameworki js i json
 
 ## Pytania?
 
+1. Czemu angular a nie backbone?
+2. Czy to podejścia da się zintegrować z legacy code?
+
 ## Warsztaty angularowe
 
 ## Gdzie można mnie złapać
