@@ -23,7 +23,46 @@ title: Frameworki js i json
  * Racja - pisanie testów dla jQuerowej kluchy to ból: więc dzisiaj przyjżymy się bardziej testowalnemu podejściu
 * Zapraszam do zadawania pytań - w trakcie i po prezentacji
 
-## 
+## Jak działają strony internetowe?
 
-## Jak działa interne
-## Jak inne technologie obsługują 
+## Na ogół jest inaczej 
+
+## Czemu internet był inny?
+
+## Js jest gotowy! 
+
+## Aplikacje js
+
+## Kiedy stosować aplikacje
+
+## Frameworki JS
+
+## JSON
+
+## JSON vs XML
+
+## Rest vs soap
+
+## Angular
+
+## AngularJs: two ways binding
+
+## Angular: wstrzykiwanie zależności
+
+## Angular: testowalność
+
+## Yeoman
+
+## Yeoman: generowanie kodu
+
+## Yeoman: serwer testowy
+
+## Testacular
+
+## Podsumowanie
+
+## Pytania?
+
+## Warsztaty angularowe
+
+## Gdzie można mnie złapać
