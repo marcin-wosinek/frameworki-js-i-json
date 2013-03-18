@@ -37,6 +37,9 @@ title: Frameworki js i json
 ## Js wygrał i jest gotowy! 
 * urządzenia mobilne nie wspierają silverlighta i flasha - i tym samy obie technologie wypadły z gry
 * mało kto pamięta o apletach java
+
+## Ale js?
+* js to nie tylko jQuery z pluginami 
 * jest możliwe w wygodny sposób korzystać z dobrych praktyk programistycznych w js
 
 ## Aplikacje js
@@ -135,12 +138,35 @@ function soap() {
 (source: http://stackoverflow.com/a/11404133/603544)
 
 ## Angular
+* Framework js
+ * 29KB zminimalizowany i spakowany
+ * backbone: 19KB (z underscore & backbone)
+ * backbone: 32KB (z lodash & jQuery)
+ * ember: 49KB
+* brak zależności:
+ * może używać jQuery, o ile jest dostępne przy uruchomieniu
 
 ## AngularJs: two ways binding
+* Dwu stronne powiązanie modelu z widokiem
+* Bardzo szybkie
+* opartę o proste porównywanie wartości
+
+### Demonstracja! - strona http://angularjs.org/
+* Mega prosty kod - bardzo przyjemna funkcjonalność
+
+## Angular: rozszeżanie html
+* Directives - angularowy sposób na łączenie html z js
+* Controller nie tyka DOM
+* Programowanie deklaratyne
 
 ## Angular: wstrzykiwanie zależności
+* ładny sposób na podsumowanie z czym integruje się dany kawałek kodu
+* pozwala na kontrolować z czego korzystają instancje funkcji - prawdziwych obiektów, czy mocków
 
 ## Angular: testowalność
+* Brak manipulacji DOM w kotrolerach
+* Wstrzykiwanie zależności
+* Wysoka testowalność, czyniąca TDD możliwym i przyjemnym
 
 ## Yeoman
 * Zestaw narzędzi usprawniajacych pracę
@@ -169,6 +195,8 @@ function soap() {
 
 1. Czemu angular a nie backbone?
 2. Czy to podejścia da się zintegrować z legacy code?
+3. Co walidatory na html dostosowany do angulara?
+4. Z jakim backendem używać angulara?
 
 ## Warsztaty angularowe
 kiedy: sobota, 23 marca, godzina 10.00
