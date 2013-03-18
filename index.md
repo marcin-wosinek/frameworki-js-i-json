@@ -28,16 +28,48 @@ title: Frameworki js i json
 ## Na ogół jest inaczej 
 
 ## Czemu internet był inny?
+* brak dojrzałej, powszechnej technologii - javascript, flash, silverlight i aplety java
+* brak gotowości front endu na zwiększenie zakresu odowiedzialności
+* brak stosowanie dobrych praktyk:
+ * testów
+ * wzorców projektowych
 
-## Js jest gotowy! 
+## Js wygrał i jest gotowy! 
+* urządzenia mobilne nie wspierają silverlighta i flasha - i tym samy obie technologie wypadły z gry
+* mało kto pamięta o apletach java
+* jest możliwe w wygodny sposób korzystać z dobrych praktyk programistycznych w js
 
 ## Aplikacje js
+* cześć logiki trafia do przeglądarek
+* wymagają włączonego js
+* pozwalają na bardziej rozbudowane i wygodniejsze interfejsy
 
 ## Kiedy stosować aplikacje
+* Wtedy kiedy użytkownik jest po zalogowaniu
+* W intranetowych zastosowaniach
 
 ## Frameworki JS
+* Dostarczają architektury
+* Umożliwiają zwiększanie zakresu obowiązków front endu
+* Bardzo duży wybór
+* jQuery nie jest frameworkiem
 
 ## JSON
+```js
+{
+  "menu": {
+    "id": "file",
+    "value": "File",
+    "popup": {
+      "menuitem": [
+        { "value": "New", "href": "#createNewDoc" },
+        { "value": "Open", "href": "#openDoc" },
+        { "value": "Close", "href": "#closeDoc" }
+      ]
+    }
+  }
+}
+```
 
 ## JSON vs XML
 
@@ -60,6 +92,10 @@ title: Frameworki js i json
 ## Testacular
 
 ## Podsumowanie
+* Przeglądarkowy js jest bardzo szybko rozwijającą się gałęzią programowania
+* Dobre praktyki z javy i rubego można sprawnie używać w js
+* Json jest prostym formatem danych, idealnym w wielu przypadkach
+* Warto poznać praktykę użycia trzech narzędzi razem: angular, testacular i yeoman
 
 ## Pytania?
 
@@ -69,3 +105,6 @@ title: Frameworki js i json
 ## Warsztaty angularowe
 
 ## Gdzie można mnie złapać
+marcin.wosinek@gmail.com
+@MarcinWosinek
+linki + notatki: http://marcin-wosinek.github.com/frameworki-js-i-json/
