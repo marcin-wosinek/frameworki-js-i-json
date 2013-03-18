@@ -52,12 +52,14 @@ title: Frameworki js i json
 * W intranetowych zastosowaniach
 
 ## Frameworki JS
+
 * Dostarczają architektury
 * Umożliwiają zwiększanie zakresu obowiązków front endu
 * Bardzo duży wybór
 * jQuery nie jest frameworkiem
 
 ## JSON
+
 ```js
 {
   "menu": {
@@ -75,6 +77,7 @@ title: Frameworki js i json
 ```
 
 ## JSON vs XML
+
 ```xml
 <person first-name="John" last-name="Smith"/>
 
