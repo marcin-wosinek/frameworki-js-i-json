@@ -72,8 +72,67 @@ title: Frameworki js i json
 ```
 
 ## JSON vs XML
+```xml
+<person first-name="John" last-name="Smith"/>
+
+<person>
+  <first-name>John</first-name>
+  <last-name>Smith</last-name>
+</person>
+
+<object type="Person">
+  <property name="first-name">John</property>
+  <property name="last-name">Smith</property>
+</object>
+```
+
+```js
+{
+  "first-name": "John",
+  "last-name": "Smith" 
+}
+```
+(źródło http://blog.mongolab.com/2011/03/why-is-json-so-popular-developers-want-out-of-the-syntax-business/)
 
 ## Rest vs soap
+Soap:
+```js
+function soap() {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('POST', 'https://somesoapurl.com/', true);
+
+    // build SOAP request
+    var sr =
+        '<?xml version="1.0" encoding="utf-8"?>' +
+        '<soapenv:Envelope ' + 
+            'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ' +
+            'xmlns:api="http://127.0.0.1/Integrics/Enswitch/API" ' +
+            'xmlns:xsd="http://www.w3.org/2001/XMLSchema" ' +
+            'xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">' +
+            '<soapenv:Body>' +
+                '<api:some_api_call soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">' +
+                    '<username xsi:type="xsd:string">login_username</username>' +
+                    '<password xsi:type="xsd:string">password</password>' +
+                '</api:some_api_call>' +
+            '</soapenv:Body>' +
+        '</soapenv:Envelope>';
+
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4) {
+            if (xmlhttp.status == 200) {
+
+                alert('done use firebug to see responce');
+            }
+        }
+    }
+    // Send the POST request
+    xmlhttp.setRequestHeader('Content-Type', 'text/xml');
+    xmlhttp.send(sr);
+    // send request
+    // ...
+}
+```
+(source: http://stackoverflow.com/a/11404133/603544)
 
 ## Angular
 
@@ -84,12 +143,21 @@ title: Frameworki js i json
 ## Angular: testowalność
 
 ## Yeoman
+* Zestaw narzędzi usprawniajacych pracę
+ * wspiera angular, backbone, ember
+* Zajmuje się nudnymi zadaniami
+* wparcie dla sass, compass, coffeescript
 
 ## Yeoman: generowanie kodu
+* W angularze elimuje część przegryzania się przez dokumentacje
+* Usprawnia prace
 
 ## Yeoman: serwer testowy
+* Obserwuje zmiany na plika; kompile co trzeba i puszuje do przeglądarki - bez f5
 
 ## Testacular
+* test runner od teamu angularowego
+* ładnie działa w TDD
 
 ## Podsumowanie
 * Przeglądarkowy js jest bardzo szybko rozwijającą się gałęzią programowania
@@ -103,6 +171,9 @@ title: Frameworki js i json
 2. Czy to podejścia da się zintegrować z legacy code?
 
 ## Warsztaty angularowe
+kiedy: sobota, 23 marca, godzina 10.00
+miejsce: WMiI UJ, sala 1160
+rejestracja: rejestracja.ksi+js@gmail.com - podaj imię i nazwisko
 
 ## Gdzie można mnie złapać
 marcin.wosinek@gmail.com
