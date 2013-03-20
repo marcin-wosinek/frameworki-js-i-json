@@ -208,6 +208,27 @@ function soap() {
 3. Co walidatory na html dostosowany do angulara?
 4. Z jakim backendem używać angulara?
 
+## Pytania?
+
+1. Czemu angular a nie backbone?
+2. Czy to podejścia da się zintegrować z legacy code?
+3. Co walidatory na html dostosowany do angulara?
+4. Z jakim backendem używać angulara?
+
+## Pytania?
+
+1. Czemu angular a nie backbone?
+2. Czy to podejścia da się zintegrować z legacy code?
+3. Co walidatory na html dostosowany do angulara?
+4. Z jakim backendem używać angulara?
+
+## Pytania?
+
+1. Czemu angular a nie backbone?
+2. Czy to podejścia da się zintegrować z legacy code?
+3. Co walidatory na html dostosowany do angulara?
+4. Z jakim backendem używać angulara?
+
 ## Warsztaty angularowe
 kiedy: sobota, 23 marca, godzina 10.00
 miejsce: WMiI UJ, sala 1160
