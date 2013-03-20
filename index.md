@@ -24,8 +24,14 @@ title: Frameworki js i json
 * Zapraszam do zadawania pytań - w trakcie i po prezentacji
 
 ## Jak działają strony internetowe?
+* serwer generuje html z danych za pomocą templatów serwerowych
+* dana, obciążone html są wysyłane do przeglądarki
+* w js robimy proste operacje na dokumencie wygenerowanym po stronie serwera
 
 ## Na ogół jest inaczej 
+* aplikacja jest na po stronie klienta
+* serwer wystawia DANE
+* widoki sa generowane po stronie klienta
 
 ## Czemu internet był inny?
 * brak dojrzałej, powszechnej technologii - javascript, flash, silverlight i aplety java
@@ -50,6 +56,7 @@ title: Frameworki js i json
 ## Kiedy stosować aplikacje
 * Wtedy kiedy użytkownik jest po zalogowaniu
 * W intranetowych zastosowaniach
+* W reszcie przypadków dobrze mieć fallback dla bez jsowych user-agentów i botów wyszukiware
 
 ## Frameworki JS
 
@@ -143,7 +150,7 @@ function soap() {
 ## Angular
 * Framework js
  * 29KB zminimalizowany i spakowany
- * backbone: 19KB (z underscore & backbone)
+ * backbone: 19KB (z underscore & zepto)
  * backbone: 32KB (z lodash & jQuery)
  * ember: 49KB
 * brak zależności:
