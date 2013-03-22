@@ -66,6 +66,9 @@ title: Frameworki js i json
 * jQuery nie jest frameworkiem
 
 ## JSON
+* format serializowania objektów
+* json - bardzo prosta i naturalna składnia
+* podobne konstrukcje występują w innych językach
 
 ```js
 {
@@ -84,6 +87,8 @@ title: Frameworki js i json
 ```
 
 ## JSON vs XML
+* xml - potrzeba bibliotek do parsowania
+* xml - złożona składnia, wiele sposóbów na przedstwienie tego samego
 
 ```xml
 <person first-name="John" last-name="Smith"/>
@@ -108,6 +113,8 @@ title: Frameworki js i json
 (źródło http://blog.mongolab.com/2011/03/why-is-json-so-popular-developers-want-out-of-the-syntax-business/)
 
 ## Rest vs soap
+* soap w javascripcie jest bolesny
+* rest + json są bardzo naturalne w js
 Soap:
 
 ```js
@@ -174,6 +181,23 @@ function soap() {
 * ładny sposób na podsumowanie z czym integruje się dany kawałek kodu
 * pozwala na kontrolować z czego korzystają instancje funkcji - prawdziwych obiektów, czy mocków
 
+```js
+$scope; // view model
+$log; // konsola: przyjazna dla ie
+$window; // Testowalny odpowiednik window
+$http; // requesty http
+// wszystkie nasze serwisy
+
+/*----------*/
+
+function TodoCtrl($scope, $log) {
+  $scope.addTodo = function() {
+    $log.log($scope.msg);
+    $scope.msg = "";
+  };
+};  
+```
+
 ## Angular: testowalność
 * Brak manipulacji DOM w kotrolerach
 * Wstrzykiwanie zależności
@@ -201,27 +225,6 @@ function soap() {
 * Dobre praktyki z javy i rubego można sprawnie używać w js
 * Json jest prostym formatem danych, idealnym w wielu przypadkach
 * Warto poznać praktykę użycia trzech narzędzi razem: angular, testacular i yeoman
-
-## Pytania?
-
-1. Czemu angular a nie backbone?
-2. Czy to podejścia da się zintegrować z legacy code?
-3. Co walidatory na html dostosowany do angulara?
-4. Z jakim backendem używać angulara?
-
-## Pytania?
-
-1. Czemu angular a nie backbone?
-2. Czy to podejścia da się zintegrować z legacy code?
-3. Co walidatory na html dostosowany do angulara?
-4. Z jakim backendem używać angulara?
-
-## Pytania?
-
-1. Czemu angular a nie backbone?
-2. Czy to podejścia da się zintegrować z legacy code?
-3. Co walidatory na html dostosowany do angulara?
-4. Z jakim backendem używać angulara?
 
 ## Pytania?
 
