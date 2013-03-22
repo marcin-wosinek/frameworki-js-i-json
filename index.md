@@ -172,7 +172,7 @@ function soap() {
 ### Demonstracja! - strona http://angularjs.org/
 * Mega prosty kod - bardzo przyjemna funkcjonalność
 
-## Angular: rozszeżanie html
+## Angular: rozszerzanie html
 * Directives - angularowy sposób na łączenie html z js
 * Controller nie tyka DOM
 * Programowanie deklaratyne
