@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+    <script>
+      function ExampleCtrl ($scope) {
+        $scope.list = [];
+
+        $scope.add = function () {
+          var toAdd = Math.random().toString(36).substring(7);
+          $scope.list.push(toAdd);
+        };
+      }
+    </script>
+  </head>
+  <body>
+    <div ng-controller="ExampleCtrl">
+      <button ng-click="add()">Add</button>
+      <ul>
+        <li ng-repeat="element in list">{{element}}</li>
+      </ul>
+    </div>
+  </body>
+</html>
