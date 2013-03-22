@@ -203,6 +203,29 @@ function TodoCtrl($scope, $log) {
 * Wstrzykiwanie zależności
 * Wysoka testowalność, czyniąca TDD możliwym i przyjemnym
 
+```js
+function PasswordCtrl($scope) {
+  $scope.password = '';
+  $scope.grade = function() {
+    var size = $scope.password.length;
+    if (size > 8) {
+      $scope.strength = 'strong';
+    } else if (size > 3) {
+      $scope.strength = 'medium';
+    } else {
+      $scope.strength = 'weak';
+    }
+  };
+}
+
+/*----------*/
+
+var pc = new PasswordCtrl();
+pc.password('abc');
+pc.grade();
+expect(pc.strength).toEqual('weak');
+```
+
 ## Yeoman
 * Zestaw narzędzi usprawniajacych pracę
  * wspiera angular, backbone, ember
