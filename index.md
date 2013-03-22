@@ -182,7 +182,7 @@ function soap() {
 
 <ul>
   <li ng-repeat="friend in friends">
-    [{{$index + 1}}] {{friend.name}} who is {{friend.age}} yrs old.
+    [{ {$index + 1}}] { {friend.name}} who is { {friend.age}} yrs old.
   </li>
 </ul>
 
