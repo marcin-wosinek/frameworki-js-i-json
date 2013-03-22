@@ -177,7 +177,7 @@ function soap() {
 * Controller nie tyka DOM
 * Programowanie deklaratyne
 
-```js
+```html
 <div ng-controller="ProductCtrl">
 
 <ul>
