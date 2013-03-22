@@ -195,7 +195,7 @@ function TodoCtrl($scope, $log) {
     $log.log($scope.msg);
     $scope.msg = "";
   };
-};  
+};
 ```
 
 ## Angular: testowalność
