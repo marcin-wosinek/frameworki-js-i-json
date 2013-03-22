@@ -186,7 +186,7 @@ function soap() {
   </li>
 </ul>
 
-<input type="checkbox" ng-model="confirmed" ng-change="change()"
+<input type="checkbox" ng-model="confirmed" ng-change="change()" />
 
 <blink>Click me</blink>
 
