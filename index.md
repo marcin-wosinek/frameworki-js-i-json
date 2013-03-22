@@ -164,6 +164,11 @@ function soap() {
 * brak zależności:
  * może używać jQuery, o ile jest dostępne przy uruchomieniu
 
+## Angular: MV*
+* W kontrolerze opisujemy krok po kroku logike (imperatywnie)
+* W widoku odwołujemy się do elementów zdefiniowanych w kontrolerze (deklaratywnie)
+* $scope scala jedno i drugie razem
+
 ## AngularJs: two ways binding
 * Dwu stronne powiązanie modelu z widokiem
 * Bardzo szybkie
