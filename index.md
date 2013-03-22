@@ -109,6 +109,7 @@ title: Frameworki js i json
 
 ## Rest vs soap
 Soap:
+
 ```js
 function soap() {
     var xmlhttp = new XMLHttpRequest();
