@@ -177,6 +177,21 @@ function soap() {
 * Controller nie tyka DOM
 * Programowanie deklaratyne
 
+```js
+<div ng-controller="ProductCtrl">
+
+<ul>
+  <li ng-repeat="friend in friends">
+    [{{$index + 1}}] {{friend.name}} who is {{friend.age}} yrs old.
+  </li>
+</ul>
+
+<input type="checkbox" ng-model="confirmed" ng-change="change()"
+
+<blink>Click me</blink>
+
+```
+
 ## Angular: wstrzykiwanie zależności
 * ładny sposób na podsumowanie z czym integruje się dany kawałek kodu
 * pozwala na kontrolować z czego korzystają instancje funkcji - prawdziwych obiektów, czy mocków
