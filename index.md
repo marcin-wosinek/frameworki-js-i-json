@@ -40,13 +40,13 @@ title: Frameworki js i json
  * testów
  * wzorców projektowych
 
-## Js wygrał i jest gotowy! 
-* urządzenia mobilne nie wspierają silverlighta i flasha - i tym samy obie technologie wypadły z gry
-* mało kto pamięta o apletach java
-
 ## Ale js?
 * js to nie tylko jQuery z pluginami 
 * jest możliwe w wygodny sposób korzystać z dobrych praktyk programistycznych w js
+
+## Js wygrał i jest gotowy!
+* urządzenia mobilne nie wspierają silverlighta i flasha - i tym samy obie technologie wypadły z gry
+* mało kto pamięta o apletach java
 
 ## Aplikacje js
 * cześć logiki trafia do przeglądarek
