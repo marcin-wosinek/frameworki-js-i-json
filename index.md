@@ -2,6 +2,8 @@
 layout: default
 title: Frameworki js i json
 ---
+[Slajdy](https://docs.google.com/presentation/d/1moRrmS6ogVlOBzVidsPgLc1_w-vYC3Bt87Wk3oak5rU/edit?usp=sharing)
+
 # Frameworki js i json
 ## Temat
 * Trend będący na styku aplikacji mobilnych i stron internetowych
